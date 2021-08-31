@@ -27,11 +27,12 @@ text-decoration: none;
 
 /* menu style */
 
-#menu {font-size: large; letter-spacing: 4px;}
+#menu {font-size: large; letter-spacing: 4px; 
+    text-align: center}
 
 #menu #logo {line-height: 75px;}
 
-#menu li {margin: o auto; text-align: center;
+#menu li {margin: o auto; ;
 list-style: none; display: inline-block; 
 }
 #menu a {text-decoration: none; 
@@ -66,9 +67,9 @@ background: url('../images/pizza-image.jpeg') no-repeat center center;
 /* school-ethos */
 
 #school-style {
-height: 600px; text-align: left;}
+height: 600px; text-align: center;}
 
-#school-p {text-align: right; color: #3a3a3a;
+#school-p {text-align: center; color: #3a3a3a;
 font-size: larger;
 font-family: oswald,sans-serif ;}
 
