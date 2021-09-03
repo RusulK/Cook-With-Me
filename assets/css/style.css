@@ -6,7 +6,7 @@ body {background-color:white; font-family: lato, sans-serif;
 font-weight: 300; color: #3a3a3a;}
 
 /* heading style */
-h1, h2 {font-family: oswald, sans-serif;
+h1 {font-family: oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: green;
@@ -15,6 +15,7 @@ margin-block-end: 0.67em;
 margin-block-start: 00.67em; 
 margin-block-end: 0px;
 margin-block-start: 0px;
+background: beige;
 
 }
 #logo {
@@ -23,14 +24,16 @@ padding-top: 10px;
 text-align: center;
 text-decoration: none;
 
+
 }
 
 /* menu style */
+div {display: block;}
 
 #menu {font-size: large; letter-spacing: 4px; 
     text-align: center}
 
-#menu #logo {line-height: 75px;}
+#menu #logo {line-height: 150px;}
 
 #menu li {margin: o auto; ;
 list-style: none; display: inline-block; 
@@ -38,53 +41,41 @@ list-style: none; display: inline-block;
 #menu a {text-decoration: none; 
     color: green; 
     font-weight: bold;
+    background: chartreuse;
+    margin: o auto;
 }
 
-    
-
-
-
-#menu a:hover {border-bottom: 1px solid #3a3a3a;}
+    #menu a:hover {border-bottom: 1px solid #3a3a3a;}
 
 .active {border-bottom: 1px solid #3a3a3a;}
 
 
 
-#pizza-outer {height: 600px;
-    width: 100%;
-    overflow:hidden;
-    position: relative;
-    margin-left: 20px;
-    }
 
-#pizza-image {height: 600px;
+
+#main-image {
 width: 100%;
-background: url('../images/pizza-image.jpeg') no-repeat center center;
+background-image: url('../images/pizza-image.jpeg');
+filter: brightness(40%);
+background-size: cover;
+background-repeat: no-repeat;
+height: 1300px;
+background-position: left;
 }
 
 
 
 /* school-ethos */
 
-#school-style {
-height: 600px; text-align: center;}
+.cover-title {
+height: 600px; text-align: center; display: block;}
 
-#school-p {text-align: center; color: #3a3a3a;
+.cover-text {text-align: center; color: #3a3a3a;
 font-size: larger;
 font-family: oswald,sans-serif ;}
 
-#center-about {padding-top: 30px;
-width: 33%;
-margin: o auto;
-font-family: oswald, sans-serif;
-font-size: x-large;
 
 
 
-.left-about-heading {width: 100%;
-float:none;
-line-height: 25px;
-clear: both;
-margin-top: 50px; background:  #00CC00;
-color: white;
-margin-left: 0;}
+
+
