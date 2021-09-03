@@ -9,18 +9,23 @@ font-weight: 300; color: #3a3a3a;}
 h1 {font-family: oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: green;
-    display: block;
+    color: white;
+   
     text-align: left;
-    background: white;
+    background: rgb(207, 84, 36);;
     margin-left: 5%;
+    text-decoration: none;
 
 }
 #logo {
 font-size: 280%;
-padding-top: 10px;
+padding-top: 10spx;
 text-align: center;
 text-decoration: none;
+text-align: left;
+background-color: rgb(207, 84, 36);
+margin:0 auto;
+padding-left: 7px;
 
 
 }
@@ -29,21 +34,32 @@ text-decoration: none;
 div {display: block;}
 
 #menu {font-size: large; letter-spacing: 4px; 
-    text-align: center}
+    text-align: right;
+background-color: rgb(207, 84, 36);}
 
-#menu #logo {line-height: 150px;}
+
 
 #menu li {margin: o auto; ;
-list-style: none; display: inline-block; 
+list-style-type: none; display: inline-block; 
+text-align: right;
+padding-bottom: 2.5%;
+padding-top: 0px;
+overflow: hidden;
+padding-right: 7px;
+
 }
 #menu a {text-decoration: none; 
-    color: green; 
+    color: white; 
     font-weight: bold;
-    background: chartreuse;
+    background: rgb(207, 84, 63);
     margin: o auto;
+    text-align: right;
+    margin-bottom: 5%; 
+    
+    
 }
 
-    #menu a:hover {border-bottom: 1px solid #3a3a3a;}
+s#menu a:hover {border-bottom: 1px solid #3a3a3a;}
 
 .active {border-bottom: 1px solid #3a3a3a;}
 
@@ -57,34 +73,25 @@ background-image: url('../images/pizza-image.jpeg');
 filter: brightness(50%);
 background-size: cover;
 background-repeat: no-repeat;
-height: 1300px;
+height: 1250px;
 background-position: center;
+padding-top: 5px;
+margin-bottom: 40px;
 }
-
 
 
 /* school-ethos */
 
 .cover-title {
-height: 600px; text-align: center; display: block;
-color: white;
-width: 80%;
-font-size: x-large;
-position: absolute; 
-filter: brightness(100%);
-text-align: left;
-margin-left: 3%;
-text-transform: initial;
-margin-top: 7%;}
-
-.cover-text {text-align: left; color: white;
-font-size: x-large;
-font-family: oswald,sans-serif ;
-margin-left: 3%;
 position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: clear;
+    color: white;
+    padding-bottom: 900px;
+    padding-right:900px;
 
 }
-
 
 
 
