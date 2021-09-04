@@ -97,7 +97,8 @@ position: absolute;
 
 /*..Footer..*/
 Footer {height: 150px;
-background: rgb(207, 84, 63);}
+background: rgb(207, 84, 63);
+line-height: 0;}
 
 .social-network {
     text-align: center;
