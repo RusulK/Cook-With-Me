@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Oswald&display=swap');
 
+
 * { margin: 0; padding: 0; border: none;}
 
 body {background-color:white; font-family: lato, sans-serif;
@@ -98,10 +99,16 @@ position: absolute;
 Footer {height: 150px;
 background: rgb(207, 84, 63);}
 
-#social-network {
-    position: absolute;
-    float: right;
+.social-network {
+    text-align: center;
+   padding-top: 60px;
+    position: relative;
+    
 }
 
-
-
+.social-network > li {display: inline;}
+.social-network i { font-size: x-large;
+    margin: 10px;
+    padding: 5px;
+    color: white;
+    }
