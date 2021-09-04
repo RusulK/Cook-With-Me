@@ -113,3 +113,25 @@ line-height: 0;}
     padding: 5px;
     color: white;
     }
+
+    /*..Classes..*/
+    #our-classes-title { 
+        text-align: center;
+        position: relative;
+        text-transform: uppercase;
+        padding-top: 10px;
+        
+        }
+
+    #classes-space {
+    padding-top: 20%;
+    padding-right: 70%;
+   display: initial;
+}
+    
+    
+
+   
+        
+
+    
