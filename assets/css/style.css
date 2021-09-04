@@ -13,7 +13,7 @@ h1 {font-family: oswald, sans-serif;
    
     text-align: left;
     background: rgb(207, 84, 36);;
-    margin-left: 5%;
+    margin-left: 6%;
     text-decoration: none;
 
 }
@@ -21,7 +21,7 @@ h1 {font-family: oswald, sans-serif;
 font-size: 280%;
 padding-top: 10spx;
 text-align: center;
-text-decoration: none;
+text-decoration:none ;
 text-align: left;
 background-color: rgb(207, 84, 36);
 margin:0 auto;
@@ -70,7 +70,7 @@ s#menu a:hover {border-bottom: 1px solid #3a3a3a;}
 #main-image {
 width: 100%;
 background-image: url('../images/pizza-image.jpeg');
-filter: brightness(50%);
+filter: brightness(70%);
 background-size: cover;
 background-repeat: no-repeat;
 height: 1250px;
@@ -90,10 +90,18 @@ position: absolute;
     color: white;
     padding-bottom: 900px;
     padding-right:900px;
+    padding-left: 2%;
 
 }
 
+/*..Footer..*/
+Footer {height: 150px;
+background: rgb(207, 84, 63);}
 
+#social-network {
+    position: absolute;
+    float: right;
+}
 
 
 
