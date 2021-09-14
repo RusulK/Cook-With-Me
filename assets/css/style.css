@@ -209,9 +209,9 @@ display: inherit;
 }
 
 .p_holder2 {float: right;
-width: 35%;
-padding-top: 15px;
-font-size: 20px;
+width: 31%;
+padding-top: 0px;
+font-size: 25px;
 }
   
 .p_holder3 {float: right;
@@ -221,20 +221,21 @@ font-size: 20px;
  }
 
 .p_holder4 {float: right;
-    width: 33%;
+    width: 40%;
 padding-top: 19px;
 font-size: 20px;
 }
 
+
 .p_holder1 > h3 { padding-right: 50%;} 
-.p_holder2 > h3 {padding-right: 30%;}
-.p_holder3 > h3 {padding-right: 30%;}
-.p_holder4 > h3 {padding-right: 20%;}
+.p_holder2 > h3 {padding-right: 50%;}
+.p_holder3 > h3 {padding-right: 50%;}
+.p_holder4 > h3 {padding-right: 50%;}
 
 
 
 
-.img1 {padding-left: 5px;
+.img1 {padding-left: 7px;
 padding-top: 5px;
 border-radius: 10px;
 }
@@ -265,12 +266,13 @@ border-radius: 10px;
                 }           
                 
                     
-                .contact-font{color:white;
+                .contact-font {color:white;
                 filter: brightness(100%);
                 text-align: center;
                 padding-top: 50px;
                 font-family:Georgia, 'Times New Roman', Times, serif;
-                font-size: 35px;}
+                font-size: 35px;
+                }
 
                 .location {text-align: center;
 padding-top: 70px;
@@ -301,40 +303,40 @@ width: 45%;}
 .img1-size {display: inline-block;}
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 481px) and (max-width:768px) {
     #logo {font-size: 100%;
         width: 100%;
     }
     
     #menu {font-size: small;
-    width: 100%;}
+    width: 105%;}
 
     #logo_holder {width: 35%;}
 
 
     #menu_holder { width: 55%;}
 
-    #cover-title {width: 66%;
-    margin-left: 0;
-    padding-top: 0;
+    #cover-title {width: 45%;
+    margin-left: 1;
+    padding-top: 20px;
     padding-right: 90%;
-    margin-top: -41px;
+    margin-top: -39px;
 }
 #img_border {width: 90%;}
 
 
 .p_holder1  {width: 35%;
-font-size: 13px;
-margin-top: -30px;}
-.p_holder2 {width: 33%;
-font-size: 12px;
-padding-top: 22px;}
+font-size: 14px;
+margin-top: -20px;}
+.p_holder2 {width: 35%;
+font-size: 14px;
+padding-top: 7px;}
 .p_holder3 {width: 33%;
 font-size: 12px;
 margin-top: -20px;}
-.p_holder4 {width: 35%;
-font-size: 12px;
-padding-top: 12px;}
+.p_holder4 {width: 34%;
+font-size: 14px;
+padding-top: 0px;}
 .contact-font {font-size: 25px;}
 
 #label_holder {width: 80%;
@@ -347,4 +349,76 @@ height: 10%;}
 }
     
   
+@media only screen and (min-width: 1200px) and (max-width:1600px) {
+     
+    .p_holder3 {width: 32%;
+        font-size: 23px;
+        padding-top: 0px;}
 
+        .p_holder2 {width: 32%;
+            font-size: 23px;
+            padding-top: 0px;}
+            
+            .p_holder1 {width: 26%;
+            font-size: 24px;
+            padding-top: 0px;
+            padding-right: 40px;
+
+            }    
+            .p_holder4 {width: 33%;
+                font-size: 23px;
+                padding-top: 1px
+    
+                }    
+
+                .p_holder3 > span {display: inherit;}
+            .p_holder4 > span {display: inherit;}  
+    
+         
+            }
+            @media only screen and (min-width: 320px) and (max-width:480px) {
+
+               #cover-title {
+                   margin-left: -11px;
+                   width: 94%;
+                   padding-left: 2%;}
+                   #logo_holder {
+                       width: 38%;
+                       padding-top: 25px;
+                       padding-left: 12px;
+                   }
+                   #menu_holder { width: 52%;}
+
+               }
+
+
+
+
+                .p_holder3 {width: 32%;
+                    font-size: 23px;
+                    padding-top: 0px;}
+            
+                    .p_holder2 {width: 32%;
+                        font-size: 23px;
+                        padding-top: 0px;}
+                        
+                        .p_holder1 {width: 26%;
+                        font-size: 24px;
+                        padding-top: 0px;
+                        padding-right: 40px;
+            
+                        }    
+                        .p_holder4 {width: 33%;
+                            font-size: 23px;
+                            padding-top: 1px
+                
+                            }    
+            
+                            .p_holder3 > span {display: inherit;}
+                        .p_holder4 > span {display: inherit;}  
+                
+                     
+                        }
+
+
+            }
