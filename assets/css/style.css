@@ -99,7 +99,7 @@ text-align: left;
     padding-bottom: 900px;
     padding-right:900px;
     padding-left: 2%;
-    width: 89%;
+    width: 36%;
 margin-left: 30px;
 padding-top: 20px;
 font-weight: 500;
@@ -254,7 +254,9 @@ line-height: 0;}
                margin-top: 50px;
                padding-bottom: 10px;
                background-color: rgba(0, 0, 0, 0.32);
+               font-size: smaller;
                }
+               
                 
                #label_holder {
                 border: 6px solid rgb(0, 128, 0);
@@ -294,7 +296,21 @@ line-height: 0;}
 
                                      /*..media..*/
     
-        @media (min-width: 375px) {
+            @media (min-width: 320px) {
+                
+                #logo {
+                    font-size: 167%;
+                    margin: -11px;}
+
+                    #cover-title {
+                        padding-left: 0%;
+                        width: 63%;}
+                        #menu_holder{
+                            width: 53%;}
+
+            }
+        
+            @media (min-width: 375px) {
             #logo {
                 font-size: 130%;
                 padding-top: 10spx;
@@ -311,7 +327,7 @@ line-height: 0;}
                     }
                     #cover-title {
                         padding-left: 0%;
-                        width: 93%;
+                        width: 87%;
                        
                         }
                         #logo_holder{
@@ -367,7 +383,7 @@ line-height: 0;}
 
         #cover-title {
             padding-left: 0%;
-            width: 50%;
+            width: 80%;
         }
        
    }
@@ -413,7 +429,7 @@ line-height: 0;}
          
     #cover-title {
         padding-left: 0%;
-        width: 40%;
+        width: 50%;
     }
 }
 
@@ -457,7 +473,7 @@ line-height: 0;}
         
         #cover-title {
             padding-left: 0%;
-            width: 50%;
+            width: 40%;
         }
     
     }
@@ -508,7 +524,7 @@ line-height: 0;}
         }
         #cover-title {
             padding-left: 0%;
-            width: 50%;
+            width: 36%;
         }
     
     }
