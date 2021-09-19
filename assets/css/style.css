@@ -223,13 +223,13 @@ line-height: 0;}
             #contact-img {
                 width: 100%;
                 background-image: url('../images/cooking-lessons-01.jpeg');
-                filter: brightness(50%);
+                filter: brightness(100%);
                 background-size: cover;
                 background-repeat: no-repeat;
-                height: 1250px;
+                
                 background-position: center;
-                padding-top: 5px;
-                margin-bottom: 40px;
+                padding-top: 20px;
+                padding-bottom: 20px;
                 
                 }           
                 
@@ -238,9 +238,10 @@ line-height: 0;}
                 color:white;
                 filter: brightness(100%);
                 text-align: center;
-                padding-top: 50px;
+                padding-top: 100px;
                 font-family:Georgia, 'Times New Roman', Times, serif;
                 font-size: 35px;
+                background-color: rgba(0, 0, 0, 0.4);
                 }
 
                 .location {
@@ -253,7 +254,6 @@ line-height: 0;}
                 text-align: center;
                margin-top: 50px;
                padding-bottom: 10px;
-               background-color: rgba(0, 0, 0, 0.32);
                font-size: smaller;
                }
                
