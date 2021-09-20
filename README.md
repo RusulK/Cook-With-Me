@@ -33,9 +33,32 @@ More classes , plus an online classes would be helpfull as well, especially with
 Would like to add voucher to encourage the user for  booking more classes.
 
 # Testing
-* HTML
+* HTML, CSS
 <br>
   index.html ,no errors were found when passing through the official [W3C Validator](https://validator.w3.org/)
+  <br>
+  contact.html ,no errors were found when passing through the official [W3C Validator](https://validator.w3.org/)
+  <br>
+  CSS ,no errors were found when passing through the official [jigsaw](https://jigsaw.w3.org/css-validator/validator)
+  # Deployment
+  The site was deployed to GitHub pages:
+  <br>
+  The link can be found on the link below:
+  (https://rusulk.github.io/Cook-With-Me/)
+
+  # Credits
+  ## Content
+  The some of the paragraph on the main page taken from: (https://www.cookeryschool.co.uk/cook/classes/)
+  <br>
+  Icons in the footer and classes were taken from: [Font Awsome](https://fontawesome.com/v5.15/icons?d=gallery&p=2&q=facebook
+  )
+  ## Media
+  The photo used on the main page from: (https://m.facebook.com/FOODnr1/photos/a.110114774473724/110114744473727/?type=3&source=44)
+  <br>
+  The photos used on the Classes Section were taken from: (https://bakerbynature.com/)
+  <br>
+  The photo used on the Contact page from: (https://www.istockphoto.com/search/stack/790664490?assettype=image)
+
 
 
 
