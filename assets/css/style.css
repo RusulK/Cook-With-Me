@@ -29,7 +29,7 @@ h1 {
 
 #logo {
 font-size: 200%;
-padding-top: 10spx;
+padding-top: 10px;
 text-align: center;
 text-decoration:none ;
 text-align: left;
@@ -51,7 +51,7 @@ div {display: block;}
 
 
 #menu li {
-margin: o auto; ;
+margin: 0; 
 list-style-type: none; display: inline-block; 
 text-align: right;
 padding-bottom: 2.5%;
@@ -65,7 +65,7 @@ padding-right: 7px;
     text-decoration: none; 
     color: white; 
     font-weight: bold;
-    margin: o auto;
+    margin: 0;
     text-align: right;
     margin-bottom: 5%; 
 }
@@ -94,7 +94,6 @@ margin-bottom: 40px;
 text-align: left;
     bottom: 20px;
     right: 20px;
-    background-color: clear;
     color:rgba(255, 255, 255, 200);
     padding-bottom: 900px;
     padding-right:900px;
@@ -290,7 +289,14 @@ line-height: 0;}
 
                .label{font-size: medium;}
 
-
+        footer p {background-color: white;
+        text-align: left;
+    font-size: medium;
+color: tomato;
+font-weight: 500;
+font-family: oswald, sans-serif;}
+        
+    
 
 
 
@@ -313,7 +319,7 @@ line-height: 0;}
             @media (min-width: 375px) {
             #logo {
                 font-size: 130%;
-                padding-top: 10spx;
+                padding-top: 10px;
                 text-align: center;
                 text-decoration:none ;
                 text-align: left;
@@ -469,14 +475,15 @@ line-height: 0;}
                          margin-left: 20%;
                         width: 61%;
                         }  
-                        } 
+                        
         
         #cover-title {
             padding-left: 0%;
             width: 40%;
         }
+        }
     
-    }
+    
 
     @media (min-width: 1200px) {
         
