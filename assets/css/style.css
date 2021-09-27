@@ -7,7 +7,8 @@ html, body {
 background-color:burlywood; font-family: lato, sans-serif;
 font-weight: 300; color: #3a3a3a;
 max-width: 100% !important;
-overflow-x: hidden;}
+overflow-x: hidden;
+}
 
                                 /* heading style */
 a#homelink{
@@ -33,22 +34,16 @@ padding-top: 10px;
 text-align: center;
 text-decoration:none ;
 text-align: left;
-
 margin:0 auto;
 padding-left: 7px;
-
-
 }
 
                              /* .. menu style ..*/
 div {display: block;}
-
 #menu {
     font-size: large; letter-spacing: 4px; 
     text-align: right;
     }
-
-
 
 #menu li {
 margin: 0; 
@@ -58,7 +53,6 @@ padding-bottom: 2.5%;
 padding-top: 5px;
 overflow: hidden;
 padding-right: 7px;
-
 }
 
 #menu a {
@@ -74,10 +68,6 @@ padding-right: 7px;
 
 .active {border-bottom: 1px solid #3a3a3a;}
 
-
-
-
-
 #main-image {
 width: 100%;
 background-image: url('../images/pizza-image.jpeg');
@@ -92,58 +82,63 @@ margin-bottom: 40px;
 
 #cover-title {
 text-align: left;
-    bottom: 20px;
-    right: 20px;
-    color:rgba(255, 255, 255, 200);
-    padding-bottom: 900px;
-    padding-right:900px;
-    padding-left: 2%;
-    width: 36%;
+bottom: 20px;
+right: 20px;
+color:rgba(255, 255, 255, 200);
+padding-bottom: 900px;
+padding-right:900px;
+padding-left: 2%;
+width: 36%;
 margin-left: 30px;
 padding-top: 20px;
 font-weight: 500;
 }
 
-#cover-title > h4 {padding-left: 40px; background-color: rgba(0,0,0,0.55);}
+#cover-title > h3 { font-size: 20px;}
+
+
+#cover-title > h4 {padding-left: 40px; 
+    background-color: rgba(0,0,0,0.55);
+    }
 
 
                                   /*..Footer..*/
-Footer {height: 150px;
+Footer {
+height: 150px;
 background: rgb(207, 84, 36);
-line-height: 0;}
+line-height: 0;
+}
 
 .social-network {
-    text-align: center;
-   padding-top: 60px;
-    position: relative;
-    
+text-align: center;
+padding-top: 60px;
+position: relative;
 }
 
 .social-network > li {display: inline;}
 .social-network i { 
-    font-size: x-large;
-    margin: 10px;
-    padding: 5px;
-    color: white;
-    }
+font-size: x-large;
+margin: 10px;
+padding: 5px;
+color: white;
+}
 
     
 .orange_bg{
-    background-color: rgb(207, 84, 36);
-    margin: 0%;
-    display: inherit;
-    
-   }
+background-color: rgb(207, 84, 36);
+margin: 0%;
+display: inherit;
+}
 
 #logo_holder{
-    width: 35%;
-    position: relative;
-    display: inline-block;
-    border: 0px solid blue;
-    height: 50px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 30px;
+width: 35%;
+position: relative;
+display: inline-block;
+border: 0px solid blue;
+height: 50px;
+padding-top: 30px;
+padding-bottom: 30px;
+padding-left: 30px;
     }
 
 
@@ -157,37 +152,33 @@ line-height: 0;}
     padding-bottom: 30px;
     margin: 0;
     }
-    
+  
     
                               /*..Classes Page..*/
     #our-classes-title { 
-        text-align: center;
-        text-transform: uppercase;
-        padding-top: 10px;
-        color: white;
-        }
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 10px;
+    color: white;
+    }
 
     #classes-space {
     width: 100%;
     background-color: lightgray;
-    
     }
-    
-    
     
     #img_border {
-        display:inline-block;
-        margin-top: 50px;
-        width: 90%;
-        margin-left: 5%;
-        
+    display:inline-block;
+    margin-top: 50px;
+    width: 90%;
+    margin-left: 5%;
     }
         
-        #border {
-        border: 2px dotted rgb(216, 95, 15);
-        width: 100%;
-        margin-bottom: 10px;
-        }
+    .border {
+    border: 2px dotted rgb(216, 95, 15);
+    width: 100%;
+    margin-bottom: 10px;
+    }
         
         .p_holder1 {
             display: inline-block;
@@ -197,19 +188,11 @@ line-height: 0;}
             text-align: center;
             margin-bottom: 40px;
         }
-        
-        
-        
         .p_holder1 > h3 { text-align: center;} 
-        
-        
-        
-        
         .img1 {
             padding-top: 5px;
             border-radius: 10px;
         }
-    
         .img1 img{
             width:80%;
             height:250px;
@@ -217,7 +200,7 @@ line-height: 0;}
         }
                     
 
-                              /*..Contact Page..*/
+                             /*..Contact Page..*/
 
             #contact-img {
                 width: 100%;
@@ -225,14 +208,10 @@ line-height: 0;}
                 filter: brightness(100%);
                 background-size: cover;
                 background-repeat: no-repeat;
-                
                 background-position: center;
                 padding-top: 20px;
                 padding-bottom: 20px;
-                
                 }           
-                
-                    
                 .contact-font {
                 color:white;
                 filter: brightness(100%);
@@ -242,19 +221,17 @@ line-height: 0;}
                 font-size: 35px;
                 background-color: rgba(0, 0, 0, 0.4);
                 }
-
                 .location {
                 text-align: center;
                 padding-top: 70px;
                 font-size: 30px;
                 }
-
-               h3 {
+                h3 {
                 text-align: center;
-               margin-top: 50px;
-               padding-bottom: 10px;
-               font-size: smaller;
-               }
+                margin-top: 50px;
+                padding-bottom: 10px;
+                font-size: smaller;
+                }
                
                 
                #label_holder {
@@ -263,38 +240,27 @@ line-height: 0;}
                 margin-left: 20%;
                 height: 470px;
                 padding-top: 23px;
-                
                 padding-bottom: 10px;
-                
                 margin-left: 19%;
                 }
-
-                
-
-               input {
-               height: 35px;
-               width: 45%;
-               }
-
-               #text {height: 200px;}
-
-               .label {font-size: large;}
-
-               .img1-size {display: inline-block;
-                    width: 100%;
-
+                input {
+                height: 35px;
+                width: 45%;
                 }
 
+                #text {height: 200px;}
+               .label {font-size: large;}
+               .img1-size {display: inline-block;
+                width: 100%;
+                }
                
-
-               .label{font-size: medium;}
-
-        footer p {background-color: white;
-        text-align: left;
-    font-size: medium;
-color: tomato;
-font-weight: 500;
-font-family: oswald, sans-serif;}
+               footer p {background-color: white;
+               text-align: center;
+               font-size: medium;
+               color: tomato;
+               font-weight: 500;
+               font-family: oswald, sans-serif;
+               }
         
     
 
@@ -302,239 +268,208 @@ font-family: oswald, sans-serif;}
 
                                      /*..media..*/
     
-            @media (min-width: 320px) {
-                
-                #logo {
-                    font-size: 167%;
-                    margin: -11px;}
-
-                    #cover-title {
-                        padding-left: 0%;
-                        width: 63%;}
-                        #menu_holder{
-                            width: 53%;}
-
-            }
-        
-            @media (min-width: 375px) {
-            #logo {
-                font-size: 130%;
-                padding-top: 10px;
-                text-align: center;
-                text-decoration:none ;
-                text-align: left;
-                
-                margin:0 auto;
-                padding-left: 7px;
-                }
-                #menu {
-                    font-size: inherit; letter-spacing: 4px; 
-                    text-align: right;
-                    }
-                    #cover-title {
-                        padding-left: 0%;
-                        width: 87%;
-                       
-                        }
-                        #logo_holder{
-                            width: 46%;
-                            position: relative;
-                            display: inline-block;
-                            border: 0px solid blue;
-                            height: 50px;
-                            padding-top: 30px;
-                            padding-bottom: 30px;
-                            padding-left: 30px;
-                            }
-                            #menu_holder{
-                                width: 89%;
-                                position:inherit;
-                                display: inline-block;
-                                border: 0px solid yellow;
-                                height: 50px;
-                                padding-top: 30px;
-                                padding-bottom: 30px;
-                                margin: 0;
-                                }
-                            #label_holder {
-                                width: 60%;
-                                margin-left:  25%;
-                                    }
-
-
+    @media (min-width: 320px) {
+        #logo {
+        font-size: 167%;
+        margin: -11px;
         }
+        #cover-title {
+        padding-left: 0%;
+        width: 63%;}
+        #menu_holder{
+        width: 53%;}
+    }
+        
+    @media (min-width: 375px) {
+        #logo {
+        font-size: 130%;
+        padding-top: 10px;
+        text-align: center;
+        text-decoration:none ;
+        text-align: left;
+        margin:0 auto;
+        padding-left: 7px;
+        }
+        #menu {
+        font-size: inherit; 
+        letter-spacing: 4px; 
+        text-align: right;
+        }
+        #cover-title {
+        padding-left: 0%;
+        width: 87%;
+        }
+        #logo_holder{
+        width: 46%;
+        position: relative;
+        display: inline-block;
+        border: 0px solid blue;
+        height: 50px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        }                    
+        #menu_holder{
+        width: 89%;
+        position:inherit;
+        display: inline-block;
+        border: 0px solid yellow;
+        height: 50px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin: 0;
+        }
+        #label_holder {
+        width: 60%;
+        margin-left:  25%;
+        }
+    }
                   
-        @media (min-width: 576px) {
-
-            .p_holder1 {
-                width: 50%;
-                display: inline-block;
-               
-            }
-            .img1-size{
-                width: 45%;
-                display: inline-block;
-                margin-left: 4%;
-            }
-
-              
-                #menu_holder{
-                        width: 46%;
-                        }
-
-                        #label_holder {
-                            width: 60%;
-                            margin-left: 20%;
-                            }
+    @media (min-width: 576px) {
+        .p_holder1 {
+        width: 50%;
+        display: inline-block;
+        }
+        .img1-size{
+        width: 45%;
+        display: inline-block;
+        margin-left: 4%;
+        }
+        #menu_holder{
+        width: 46%;
+        }
+        #label_holder {
+        width: 60%;
+        margin-left: 20%;
+        }
 
         #cover-title {
-            padding-left: 0%;
-            width: 80%;
+        padding-left: 0%;
+        width: 80%;
         }
        
-   }
+    }
 
 
  
  @media (min-width: 768px) {
     
     .p_holder1 {
-        float: right;
-        width: 43%;
-        padding-top: 4px;
-        font-size: 18px;
-        display: inline-block;
-        }
-
+    float: right;
+    width: 43%;
+    padding-top: 4px;
+    font-size: 18px;
+    display: inline-block;
+    }
     .p_holder2 {
-            float: right;
-            width: 43%;
-            padding-top: 0px;
-            font-size: 16px;
+    float: right;
+    width: 43%;
+    padding-top: 0px;
+    font-size: 16px;
     }
-
     .p_holder3 {
-            float: right;
-            width: 49%;
-            padding-top: 0px;
-            font-size: 19px;
+    float: right;
+    width: 49%;
+    padding-top: 0px;
+    font-size: 19px;
     }
-
-    .p_holder4 {
-        float: right;
-        width: 49%;
-        padding-top: 0px;
-        font-size: 19px;
+   .p_holder4 {
+    float: right;
+    width: 49%;
+    padding-top: 0px;
+    font-size: 19px;
     }
-
     #label_holder {
-        margin-left: 20%;
-        width: 61%;
-        
+    margin-left: 20%;
+    width: 61%;
     }    
-         
     #cover-title {
-        padding-left: 0%;
-        width: 50%;
+    padding-left: 0%;
+    width: 50%;
     }
 }
 
    
-    @media (min-width: 992px) {
+@media (min-width: 992px) {
 
-        .p_holder1 {
-            float: right;
-            width: 35%;
-            padding-top: 4px;
-            font-size: 18px;
-            display: inline-block;
-        }
-
-        .p_holder2 {
-                float: right;
-                width: 36%;
-                padding-top: 0px;
-                font-size: 18px;
-                }
-    
-        .p_holder3 {
-                float: right;
-                width: 36%;
-                padding-top: 0px;
-                font-size: 18px;
-                         }
-
-        .p_holder4 {
-                    float: right;
-                    width: 38%;
-                    padding-top: 0px;
-                    font-size: 18px;
-                                    }  
-                                    
-        #label_holder {
-                         margin-left: 20%;
-                        width: 61%;
-                        }  
-                        
-        
-        #cover-title {
-            padding-left: 0%;
-            width: 40%;
-        }
-        }
-    
-    
-
-    @media (min-width: 1200px) {
-        
-        .p_holder1 {
-            float: right;
-            width: 34%;
-            padding-top: 4px;
-            font-size: 20px;
-            display: inline-block;
-            }
-
-        .p_holder2 {
-                float: right;
-                width: 33%;
-                padding-top: 0px;
-                font-size: 18px;
-                }
-    
-         .p_holder3 {
-                float: right;
-                width: 35%;
-                padding-top: 0px;
-                font-size: 20px;
-                         }
-
-         .p_holder4 {
-                    float: right;
-                    width: 36%;
-                    padding-top: 0px;
-                    font-size: 21px;
-                                    }  
-                                
-        #label_holder {
-                        margin-left: 20%;
-                        width: 65%;
-                        padding-top: 23px;
-                        border: 6px solid rgb(0, 128, 0);
-                        margin-left: 20%;
-                        padding-bottom: 10px}
-
-                                      
-
-        #menu_holder{
-            width: 47%;
-        }
-        #cover-title {
-            padding-left: 0%;
-            width: 36%;
-        }
-    
+    .p_holder1 {
+    float: right;
+    width: 35%;
+    padding-top: 4px;
+    font-size: 18px;
+    display: inline-block;
     }
+    .p_holder2 {
+    float: right;
+    width: 36%;
+    padding-top: 0px;
+    font-size: 18px;
+    }
+    .p_holder3 {
+    float: right;
+    width: 36%;
+    padding-top: 0px;
+    font-size: 18px;
+    }
+    .p_holder4 {
+    float: right;
+    width: 38%;
+    padding-top: 0px;
+    font-size: 18px;
+    }  
+    #label_holder {
+    margin-left: 20%;
+    width: 61%;
+    }  
+    #cover-title {
+    padding-left: 0%;
+    width: 40%;
+    }
+}
+    
+    
+
+@media (min-width: 1200px) {
+    .p_holder1 {
+    float: right;
+    width: 34%;
+    padding-top: 4px;
+    font-size: 20px;
+    display: inline-block;
+    }
+    .p_holder2 {
+    float: right;
+    width: 33%;
+    padding-top: 0px;
+    font-size: 18px;
+    }
+    .p_holder3 {
+    float: right;
+    width: 35%;
+    padding-top: 0px;
+    font-size: 20px;
+    }
+    .p_holder4 {
+    float: right;
+    width: 36%;
+    padding-top: 0px;
+    font-size: 21px;
+    }  
+    #label_holder {
+    margin-left: 20%;
+    width: 65%;
+    padding-top: 23px;
+    border: 6px solid rgb(0, 128, 0);
+    margin-left: 20%;
+    padding-bottom: 10px}
+    #menu_holder{
+    width: 47%;
+    }
+    #cover-title {
+    padding-left: 0%;
+    width: 36%;
+    }
+}
         
     
     

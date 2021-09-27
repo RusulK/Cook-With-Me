@@ -40,6 +40,15 @@ Would like to add voucher to encourage the user for  booking more classes.
   contact.html ,no errors were found when passing through the official [W3C Validator](https://validator.w3.org/)
   <br>
   CSS ,no errors were found when passing through the official [jigsaw](https://jigsaw.w3.org/css-validator/validator)
+  <br>
+  
+  * Accessibility
+  There colors and Fonts been used are easy to read and accessible by running it through Lighthouse in devtools.
+  ![accissibility-img](/assets/images/Accessibility.png)
+
+
+  
+  
   # Deployment
   The site was deployed to GitHub pages:
   <br>
